@@ -1,4 +1,9 @@
 import React from "react";
+import CounterDisplayer from "./Components/CounterDisplayer"
+import MyCounter from "./Components/MyCounter";
+import EvenCounterDisplayer from "./Components/EvenCounterDisplayer"
+import IncreaseDecreaseCount from "./Components/IncreaseDecreaseCount"
+import UseEffectForTitle from "./Components/UseEffectForTitle"
 import "./App.css";
 
 // Class Based State Example
@@ -32,6 +37,11 @@ function App() {
   return (
     <div className="App">
       <UsingClassLifeCycleComponent />
+      <CounterDisplayer />
+      <MyCounter />
+      <EvenCounterDisplayer />
+      <IncreaseDecreaseCount />
+      <UseEffectForTitle />
     </div>
   );
 }
